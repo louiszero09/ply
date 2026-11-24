@@ -1,0 +1,32 @@
+
+├── README.md
+├── install.sh
+├── assets/
+│   ├── images/
+│   │   ├── nerv-emblem.png
+│   │   ├── unit01-wireframe.svg
+│   │   └── hex-grid-bg.png
+│   ├── fonts/
+│   │   └── eva-albertana/        # Monospace / NERV-style fonts
+│   └── logs/
+│       └── boot-sequence.txt     # Sample MAGI / NERV boot lines
+├── boot/
+│   └── plymouth/
+│       └── nerv-boot/
+│           ├── nerv-boot.plymouth
+│           └── nerv-boot.script
+├── desktop/
+│   ├── wm/
+│   │   ├── i3-nerv.conf          # Borderless / zero-gap layout rules
+│   │   └── hyprland-nerv.conf
+│   └── conky/
+│       ├── conky.conf            # Main telemetry & EVA status config
+│       └── scripts/
+│           └── magi-sync.sh      # Custom status helper scripts
+└── terminal/
+    ├── kitty/
+    │   └── nerv-theme.conf       # Amber/orange palette & transparency
+    ├── alacritty/
+    │   └── nerv-theme.toml
+    └── shell/
+        └── nerv-prompt.zsh       # Boot banner / prompt snippet
